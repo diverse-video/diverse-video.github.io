@@ -138,7 +138,7 @@
             <div class="publication-links">
               <!-- Arxiv PDF link -->
               <span class="link-block">
-                <a href="https://diverse-video.github.io/" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/pdf/2511.20647" target="_blank" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <svg class="svg-inline--fa fa-file-pdf fa-w-12" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-pdf" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg><!-- <i class="fas fa-file-pdf"></i> Font Awesome fontawesome.com -->
                   </span>
@@ -170,7 +170,7 @@
 
               <!-- ArXiv abstract Link -->
               <span class="link-block">
-                <a href="https://diverse-video.github.io/" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://arxiv.org/abs/2511.20647" target="_blank" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
                   </span>
@@ -927,17 +927,6 @@
           </video>
         </div>
       </div>
-
-      <div class="column">
-        <div class="media-container">
-          <h3>Ours</h3>
-          <p class="prompt-text">A skateboarder performs jumps</p>
-          <video controls autoplay muted loop playsinline>
-            <source src="ablation/motion/ours/a_skateboarder_performs_jumps_3._5.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-
       <div class="column">
         <div class="media-container">
           <h3>Wan</h3>
@@ -953,6 +942,18 @@
           <h3>Ours</h3>
           <p class="prompt-text">A skateboarder performs jumps</p>
           <video controls autoplay muted loop playsinline>
+            <source src="ablation/motion/ours/a_skateboarder_performs_jumps_3._5.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+      
+
+      <div class="column">
+        <div class="media-container">
+          <h3>Ours</h3>
+          <p class="prompt-text">A skateboarder performs jumps</p>
+          <video controls autoplay muted loop playsinline>
             <source src="ablation/motion/ours/a_skateboarder_performs_jumps_4._3.mp4" type="video/mp4">
           </video>
         </div>
@@ -960,122 +961,7 @@
 
     </div>
   </div>
-</section>
 
-    <h2 class="title" style="margin-top: 3rem;">Ablation</h2>
-    <div class="grid-ablation">
-
-      <div class="column">
-                <div class="media-container">
-                    <h3>VEO</h3>
-                    <p class="prompt-text">A dog playing ball on beach</p>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/veo/A_dog_playing_202511121251_wjcq6.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-                <div class="media-container">
-                    <h3>VEO + Ours</h3>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/veo/In_a_sunset_202511121257_d541n.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-            <!-- Column 2 -->
-            <div class="column">
-                <div class="media-container">
-                    <h3>Wan</h3>
-                    <p class="prompt-text">A dog playing ball on beach</p>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/wan/A_dog_playing_ball_on_beach_1_10.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-                <div class="media-container">
-                    <h3>Wan + Ours</h3>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/wan/A_dog_playing_with_ball_on_beach_4_17.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-            <!-- Column 3 -->
-            <div class="column">
-                <div class="media-container">
-                    <h3>CogVideo</h3>
-                    <p class="prompt-text">A dog playing ball on beach</p>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/cogvideo/A_dog_playing_ball_on_beach_4.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-                <div class="media-container">
-                    <h3>Ours</h3>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/cogvideo/A_dog_playing_with_ball_on_beach_1_1999279616.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-
-            <div class="column">
-                <div class="media-container">
-                    <h3>VEO</h3>
-                    <p class="prompt-text">A dog playing ball on beach</p>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/veo/A_dog_playing_202511121251_df839.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-                <div class="media-container">
-                    <h3>VEO + Ours</h3>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/veo/A_cinematic_colorgraded_202511121258_vw4tf.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-
-            <div class="column">
-                <div class="media-container">
-                    <h3>Wan</h3>
-                    <p class="prompt-text">A dog playing ball on beach</p>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/wan/A_dog_playing_ball_on_beach_3_2.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-                <div class="media-container">
-                    <h3>Wan + Ours</h3>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/wan/A_dog_playing_with_ball_on_beach_3._7.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-
-            <div class="column">
-                <div class="media-container">
-                    <h3>CogVideo</h3>
-                    <p class="prompt-text">A dog playing ball on beach</p>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/cogvideo/A_dog_playing_ball_on_beach_2.mp4" type="video/mp4">
-                    </video>
-                </div>
-
-                <div class="media-container">
-                    <h3>CogVideo + Ours</h3>
-                    <video controls autoplay muted loop>
-                        <source src="ablation/cogvideo/A_dog_playing_ball_on_beach_15.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-
-
-    </div>
-  </div>
-</section>
 
 
 
@@ -1106,7 +992,7 @@
 @article{kazimi2025dppgrpo,
         title={Diverse Video Generation with Determinantal Point Process-Guided Policy Optimization},
         author={Kazimi, Tahira and Dulop, Connor and Yanardag, Pinar},
-        journal={arXiv preprint arXiv:},
+        journal={arXiv preprint arXiv:2511.20647},
         year={2025}
 }
       </code></pre>
