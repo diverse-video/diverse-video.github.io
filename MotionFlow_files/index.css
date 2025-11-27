@@ -454,3 +454,16 @@ img[src$=".png"] {
 /* .framework-img {
   max-width: 50%;
 } */
+
+.narrow-description {
+  max-width: 900px;      /* match container width */
+  margin: 2rem auto 0;   /* center horizontally + spacing */
+  text-align: center;    /* make it clean */
+  padding: 0 16px;       /* safe padding for mobile */
+}
+
+.narrow-description p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #444;
+}
